@@ -93,3 +93,56 @@ color: var(--white-color);
 }
 
 /* -------------------FIN MAIN section------------------ */
+
+/* --------------------- BENEFICIOS -------------------------- */
+.beneficios{
+    display:flex;
+    padding: 10%;
+}
+
+.beneficio{
+    padding: 20px;
+    text-align: center;
+}
+.beneficio img{
+    height: 100px;;
+}
+/* -------------------FIN BENEFICIOS ------------------------- */
+
+/* ----------------------MENCIONES--------------------------- */
+.title_menciones{
+    text-align: center;
+    font-size: 30px;
+}
+.menciones{
+    display: flex;
+    padding: 5%;
+   
+}
+.mencion{
+    
+    margin: var(--space);
+    box-shadow: 0px 0 2px 1px #e6e5e9;
+}
+
+.mencion img{
+    width:100%;
+  
+}
+
+.text_mencion{
+    padding: var(--space);
+    text-align: justify;
+}
+/* --------------------FIN MENCIONES------------------------- */
+
+/* ---------------------- INICIO FOOTER-------------------------- */
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: var(--space);
+    background-color: var(--back-color);
+    color: var(--white-color);
+}
+/* --------------------FIN INICIO FOOTER------------------------- */
+
