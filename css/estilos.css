@@ -1,12 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root{
+    --green-color:#7ACC2D;
+    --white-color:white;
+    --back-color:#313337;
+
+    /* Tipografia */
+    --normal:12px;
+
+    /* Espaciado */
+    --space:10px;
+
+    /* box Shadow */
+    --box: 0px 0 2px 1px #e6e5e9;
+}
+
 html,body{
     padding: 0px;
     margin: 0px;
+    font-family: 'Open Sans', sans-serif;
 }
+
+/* -------------------nav section------------------ */
 nav{
     display:flex;
-    background-color: #7ACC2D;
-    color: white;
-    padding: 10px;
+    background-color: var(--green-color);
+    color: var(--white-color);
+    padding: var(--space);
     justify-content: space-between;
     align-content: center;
 
@@ -21,9 +40,56 @@ nav li{
 }
 
 nav li a{
-    color:gray;
+    color:var(--back-color);
     text-decoration: none;
 }
 nav li a:hover{
-color: white;
+color: var(--white-color);
 }
+/* -------------------nav section------------------ */
+
+
+/* -------------------MAIN section------------------ */
+.main_section{
+    padding: 20%;
+    text-align: center;
+}
+
+.products{
+    background-image: url("../images/curve.png");
+    height: 200px;
+    background-size: cover;
+    background-position: center top;
+    padding: 20%;
+    display: flex;
+}
+.product{
+    padding: var(--space);
+    margin-top:-45%;
+}
+.product .content{
+    background-color: var(--white-color);
+    padding: 20px;
+    box-shadow:var(--box);
+}
+
+.image_content{
+    text-align: center;
+}
+
+.main_button{
+    background-color: var(--green-color);
+    width: 100%;
+    padding: var(--space);
+    font-size: var(--normal);
+    color: var(--white-color);
+    border: 0;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.main_button:hover{
+    background-color:#5e9e22;
+}
+
+/* -------------------FIN MAIN section------------------ */
