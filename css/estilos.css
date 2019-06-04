@@ -42,6 +42,7 @@ nav li{
 nav li a{
     color:var(--back-color);
     text-decoration: none;
+    cursor: pointer;
 }
 nav li a:hover{
 color: var(--white-color);
