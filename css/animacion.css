@@ -1,3 +1,4 @@
+/* --------------------------------animacion fadein------------------- */
 .fadeIn{
 
     animation-duration: 4s;
@@ -17,3 +18,31 @@
         opacity:1;
     }
 }
+
+/* -----------------------------FIN fadein----------------------------- */
+
+/* -----------------------------Traslate fadein-------------------------- */
+.fadeInDown{
+
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-name: fadeInDown;
+    -webkit-animation-name: fadeInDown; 
+}
+
+/* Animacion Traslate */
+@keyframes fadeInDown {
+    from{
+        opacity:0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%,0);
+    }
+    to{
+        opacity:1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0,0);
+    }
+}
+/* ---------------------------FIN Traslate fadein-------------------------- */
