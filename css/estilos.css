@@ -176,8 +176,11 @@ footer{
     display: flex;
     justify-content: space-between;
     padding: var(--space);
-    background-color: var(--l);
+    background-color: var(--black-color);
     color: var(--white-color);
+}
+.contacto a{
+    color: var(--green-color);
 }
 /* --------------------FIN INICIO FOOTER------------------------- */
 
